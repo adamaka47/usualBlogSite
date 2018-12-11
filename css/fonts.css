@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'AvenirBold';
+	src: url('../fonts/AvenirNextCyr-Bold.woff');
+	src: url('../fonts/AvenirNextCyr-Bold.ttf');
+}
+@font-face {
+	font-family: 'AvenirBoldItalic';
+	src: url('../fonts/AvenirNextCyr-BoldItalic.woff');
+	src: url('../fonts/AvenirNextCyr-BoldItalic.ttf');
+}
+@font-face {
+	font-family: 'AvenirLight';
+	src: url('../fonts/AvenirNextCyr-Light.woff');
+	src: url('../fonts/AvenirNextCyr-Light.ttf');
+}
+@font-face {
+	font-family: 'AvenirLightItalic';
+	src: url('../fonts/AvenirNextCyr-LightItalic.woff');
+	src: url('../fonts/AvenirNextCyr-LightItalic.ttf');
+}

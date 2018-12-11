@@ -1,0 +1,477 @@
+body {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto; }
+  .wrapper_mini {
+    width: 1055px;
+    margin: 0 auto; }
+  .wrapper_footer {
+    width: 1150px;
+    margin: 0 auto; }
+
+.header {
+  padding-top: 92px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+  .header_active {
+    color: #000; }
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaa;
+  letter-spacing: .7px;
+  margin-right: 70px; }
+  nav a:last-child {
+    margin-right: 0; }
+  nav a:hover {
+    color: #000; }
+
+.text {
+  padding-top: 200px; }
+  .text_title {
+    font-size: 70px;
+    letter-spacing: .6px;
+    text-align: center;
+    line-height: 1.4; }
+  .text_text {
+    text-align: center;
+    width: 584px;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: .1px;
+    margin: 0 auto;
+    color: #999;
+    font-family: 'AvenirLight'; }
+
+.feedback {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+  .feedback_reviews {
+    width: 260px;
+    margin-right: 20px; }
+    .feedback_reviews_title {
+      font-size: 36px;
+      letter-spacing: .3px;
+      font-weight: 900;
+      font-family: 'AvenirLightItalic';
+      margin-bottom: 45px; }
+    .feedback_reviews_text {
+      color: #999;
+      line-height: 2;
+      font-family: 'AvenirLightItalic';
+      margin-bottom: 10px; }
+    .feedback_reviews_item {
+      border-bottom: 1px solid #e7e7e7;
+      padding-bottom: 15px;
+      position: relative; }
+      .feedback_reviews_item::before {
+        content: ' ';
+        width: 36px;
+        height: 29px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -18px;
+        z-index: -2;
+        background: url("../img/zapyat.png"); }
+    .feedback_reviews_author {
+      font-weight: 900; }
+      .feedback_reviews_author::before {
+        content: ' - '; }
+    .feedback_reviews_second {
+      margin-top: 50px; }
+  .feedback_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.user {
+  width: 280px; }
+  .user_title {
+    font-size: 36px;
+    letter-spacing: .3px;
+    font-weight: 900;
+    font-family: 'AvenirLightItalic';
+    margin-bottom: 25px; }
+  .user_item {
+    margin-bottom: 26px;
+    position: relative;
+    overflow: hidden; }
+  .user_first {
+    margin-top: 30px; }
+  .user_icon {
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 50%; }
+    .user_icon::before {
+      content: ' ';
+      width: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -4px;
+      margin-top: -5.5px;
+      height: 0;
+      display: block;
+      border-bottom: 5.5px solid transparent;
+      border-top: 5.5px solid transparent;
+      border-left: 8px solid #000; }
+  .user_icon {
+    cursor: pointer;
+    position: absolute;
+    left: -10px;
+    bottom: -10px; }
+
+.video_main {
+  position: relative; }
+
+.video_icon {
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer; }
+  .video_icon::before {
+    content: ' ';
+    width: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -4px;
+    margin-top: -5.5px;
+    height: 0;
+    display: block;
+    border-bottom: 5.5px solid transparent;
+    border-top: 5.5px solid transparent;
+    border-left: 8px solid #000; }
+
+.video_icon {
+  position: absolute;
+  left: 24px;
+  bottom: 24px; }
+
+.instructor {
+  font-family: 'AvenirLight';
+  padding-bottom: 240px; }
+  .instructor_title {
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 75px; }
+  .instructor_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .instructor_name {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'AvenirBold';
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: .3px; }
+  .instructor_students {
+    color: #2ab738;
+    font-family: 'AvenirBold';
+    text-align: center;
+    letter-spacing: .3px; }
+
+.blogs {
+  padding-bottom: 230px; }
+  .blogs_title {
+    font-family: 'AvenirLight';
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 90px; }
+  .blogs_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .blogs_text {
+    width: 480px; }
+  .blogs_item_img {
+    margin-right: 60px; }
+    .blogs_item_img img {
+      width: 525px; }
+    .blogs_item_img_second {
+      margin-right: 0;
+      margin-left: 60px; }
+      .blogs_item_img_second img {
+        width: 525px; }
+  .blogs_item_second {
+    margin-top: 180px; }
+  .blogs_item_first_title {
+    font-size: 36px;
+    font-style: italic;
+    letter-spacing: .8px;
+    margin-bottom: 35px;
+    font-weight: 300; }
+  .blogs_item_text {
+    color: #666;
+    line-height: 2;
+    margin-bottom: 55px; }
+  .blogs_link {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    font-family: 'AvenirLight';
+    border-bottom: 2px solid transparent;
+    padding: 10px 0;
+    border: 1px solid #666;
+    text-align: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-top: 50px;
+    width: 140px;
+    letter-spacing: 1px; }
+    .blogs_link:hover {
+      background-color: #111;
+      color: #fff; }
+
+.interest {
+  padding-bottom: 145px; }
+  .interest_title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 80px; }
+  .interest_link {
+    width: 180px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 18px; }
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #e7e7e7; }
+
+.d-n {
+  display: none; }
+
+.footer {
+  padding-top: 35px;
+  padding-bottom: 40px; }
+  .footer_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .footer_name {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    letter-spacing: .8px; }
+  .footer_copyright {
+    font-family: 'AvenirBold';
+    color: #bbb; }
+  .footer_designed {
+    font-family: 'AvenirBold'; }
+    .footer_designed span {
+      color: #bbb;
+      margin-right: 5px; }
+
+@media (max-width: 1552px) {
+  .wrapper {
+    width: 92%; }
+    .wrapper_header {
+      width: 80%; } }
+
+@media (max-width: 1370px) {
+  .feedback_reviews {
+    margin-right: 0px; } }
+
+@media (max-width: 1296px) {
+  .video_main {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 101px; }
+  .text_title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 56px;
+    font-weight: 300; }
+  .wrapper_footer {
+    width: 80%; } }
+
+@media (max-width: 1120px) {
+  .wrapper_mini {
+    width: 85%;
+    margin: 0 auto; } }
+
+@media (max-width: 1070px) {
+  .instructor_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .instructor_flex img {
+      margin: 0 auto; }
+  .instructor_item {
+    margin-bottom: 80px; }
+    .instructor_item:last-child {
+      margin-bottom: 0; }
+  .instructor {
+    padding-bottom: 100px; } }
+
+@media (max-width: 980px) {
+  .feedback {
+    padding-bottom: 50px; }
+  .feedback_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .video_main {
+    margin-bottom: 40px; }
+  .blogs_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+  .blogs_item_img {
+    margin-right: 0px; }
+  .blogs_link {
+    margin-left: auto;
+    margin-right: auto; }
+  .blogs_item_img_second {
+    margin: 0; }
+  .d-n {
+    display: block; }
+  .d-b {
+    display: none; }
+  .blogs {
+    padding-bottom: 40px; }
+    .blogs_item_second {
+      margin-top: 30px; } }
+
+@media (max-width: 890px) {
+  .feedback {
+    padding-top: 120px; }
+  .text {
+    padding-top: 50px; }
+    .text_title {
+      font-size: 36px; }
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #aaa;
+    letter-spacing: .7px;
+    margin-right: 20px; }
+    nav a:last-child {
+      margin-right: 0; }
+    nav a:hover {
+      color: #000; }
+  .footer_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+  .footer_designed {
+    margin-top: 20px;
+    font-size: 14px; }
+  .footer_copyright {
+    margin-top: 5px;
+    font-size: 14px; } }
+
+@media (max-width: 768px) {
+  .interest_title {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px; } }
+
+@media (max-width: 680px) {
+  .text_text {
+    width: 80%; }
+  .text_title {
+    font-size: 30px; } }
+
+@media (max-width: 576px) {
+  .header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+  nav a {
+    display: block;
+    margin: 0;
+    margin-top: 40px; }
+  .blogs_title {
+    font-size: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; }
+  .blogs_text {
+    width: 80%; }
+  .blogs_item_title {
+    font-size: 26px; }
+  .blogs_link {
+    margin-left: auto;
+    margin-right: auto; }
+  .instructor_title {
+    font-size: 26px;
+    width: 95%; } }
